@@ -1,5 +1,5 @@
 === Plugin Name ===
-Contributors: (this should be a list of wordpress.org userid's)
+Contributors: Chetan Khandla
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=EL74CTXC78A98
 Tags: woocommerce, woo-commerce, commerce, wordpress woocommerce, order search
 Requires at least: 3.0.1
