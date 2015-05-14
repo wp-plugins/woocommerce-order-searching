@@ -1,5 +1,12 @@
-<form role="search" method="get" id="order_search_form" action="<?php // echo home_url( '/' ) ?>" >
-    <input type="hidden" name="post_type" value="shop_order" />
+<form role="search" method="get" id="order_search_form" action="" >
+	<?php 
+	if(isset($_GET)){
+		foreach($_GET as $key=>$value){
+			?><input type="hidden" name="<?php echo $key; ?>" value="<?php echo $value ?>" /><?php
+		}
+	}
+	?>
+    <input type="hidden" name="wcos_search_type" value="shop_order" />
     <div>
         <label class="screen-reader-text" for="search_value"><?php echo __('Search for:') ?></label>
         <input type="text"  size="50"value="<?php echo $_REQUEST['search_value'] ?>" name="search_value" id="search_value" />

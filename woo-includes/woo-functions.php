@@ -2,7 +2,9 @@
 if ( ! function_exists( 'user_can_search_order' ) ) {
 	function is_user_can_search_order() {
 		global $current_user, $wpdb;
-		
+		if(!is_user_logged_in()){
+			return false;
+		}
 		$allowed_roles =  get_option('woocommerce_order_search_allowd_role',array('administrator'));
 		
 		$role = $wpdb->prefix . 'capabilities';
@@ -88,19 +90,6 @@ if ( ! function_exists( 'get_serach_fields_multi_select' ) ) {
 		</tr><?php
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 /**
  * Functions used by plugins

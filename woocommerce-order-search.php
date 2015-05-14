@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: WooCommerce Order Search
- * Version: 1.0.0
+ * Version: 1.0.1
  * Plugin URI: 
  * Description: Allows to search orders in WooCommerce
  * Author: Chetan Khandla

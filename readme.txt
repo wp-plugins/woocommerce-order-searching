@@ -41,6 +41,9 @@ After Activate the plugin you will found new tab in woocommerce settings.
 3. Searching on front page
 
 == Changelog ==
+	= 1.0.1 - 14/05/2015 =
+		* Fix - Warning display when user is not logedin.
+		* Fix - Order search form is not working when permalink structure is default.
 
 == Upgrade Notice ==
 
